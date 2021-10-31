@@ -15,15 +15,18 @@ const BlogForm = ({
         <p>
         title:
           <input type="text"
+            id='title'
             value={newBlog.title}
             onChange={handleTitleChange}
           /></p>
         <p>author:
           <input type="text"
+            id='author'
             value={newBlog.author}
             onChange={handleAuthorChange}/></p>
         <p>url:
           <input type="text"
+            id='url'
             value={newBlog.url}
             onChange={handleUrlChange}/></p>
         <button type="submit">save</button>
